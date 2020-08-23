@@ -1,0 +1,92 @@
+header {
+   flex-direction: column;
+   padding: 0;
+}
+.logo {
+   margin-top: 1rem;
+}
+header ul {
+   margin-top: 2.5rem;
+   flex-direction: column;
+   text-align: center;
+   min-width: 100%;
+}
+header ul li{
+   border-top: 1px dotted #444;
+   transition: background .5s;
+}
+header ul li:hover{
+   background-color: #444;
+}
+
+/* vp */
+
+.vp-content {
+   flex-basis: 75%;
+}
+.vp-content h1{
+   font-size: 2rem;
+}
+.vp-content p{
+  font-size: .8rem;
+}
+
+/* Acquisitions */
+
+.acquisition {
+   padding: 3rem 1rem;
+}
+.container-acquisition {
+   flex-basis: 100%;
+}
+.container-acquisition h2{
+   text-align: center;
+}
+.acquisitions {
+   flex-direction: column;
+   padding: 0;
+}
+
+/* Team */
+
+.team {
+   display: flex;
+   flex-direction: column;
+}
+.team-img {
+   flex-basis: 15rem; 
+}
+.team-text {
+   padding: 4rem 2rem;
+   text-align: center;
+}
+
+/* Testimonials */
+
+.testimonials {
+   padding: 3rem 1rem;
+}
+.container-testimonials {
+   flex-basis: 100%;
+}
+.container-testimonials h2 {
+   font-size: 1.5rem;
+   text-align: center;
+}
+.testimonie {
+   flex-direction: column;  
+}
+.client {
+   max-width: 50%;
+   margin-left: 0;
+   align-items: center;
+}
+.test2 {
+   flex-direction: column-reverse;
+}
+
+/* Contact */
+
+.container-contact {
+   max-width: 100%;
+}
