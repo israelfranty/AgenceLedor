@@ -88,7 +88,7 @@ header ul li a:hover{
    flex-flow: row nowrap;
    justify-content: center;
    align-items: center;
-   background: url(/pictures/frame.jpg) center center/cover;
+   background: url(/pictures/frame.JPEG) center center/cover;
 }
 .vp-content {
    flex-basis: 40%;
@@ -163,7 +163,7 @@ header ul li a:hover{
 }
 .team-img {
    flex: 1;
-   background: url(/pictures/team.jpg) center center/cover;
+   background: url(/pictures/team.JPEG) center center/cover;
 }
 .team-text {
    padding: 8rem 3rem;
